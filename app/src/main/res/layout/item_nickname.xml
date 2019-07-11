@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:layout_gravity="center_horizontal"
+    android:background="#000000"
+    android:gravity="center"
+    android:weightSum="4">
+
+    <TextView
+        android:id="@+id/tvNameHint"
+        android:layout_width="86dp"
+        android:layout_height="50dp"
+        android:background="@drawable/frame_square"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="176dp"
+        android:layout_height="50dp"
+        android:background="@drawable/frame_square"
+        android:ems="10"
+        android:hint="name"
+        android:inputType="textPersonName"
+        android:paddingLeft="20dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#4CAF50"
+        android:textSize="18sp" />
+
+</LinearLayout>

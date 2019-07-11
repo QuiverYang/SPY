@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/nickname"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rvNickname"
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        android:background="#000000" />
+
+    <Button
+        android:id="@+id/btnNickname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_choose"
+        android:text="確定"
+        android:textColor="#FCFBFB" />
+</LinearLayout>
